@@ -35,7 +35,8 @@ console.log('connect to DB.. .')
 
 app.get('/',(req,res)=> {
 
-    res.send('<h1> HEllo Roaa!!!!     Hello Ahmad !!   WECLOME TO OMAR   AWS </h1>')
+    res.send('<h1> Hello Roaa!!!!     Hello Ahmad !!   Welcome To OMAR   AWS </h1>')
+
 });
 
 
