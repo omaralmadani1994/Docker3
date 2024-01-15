@@ -9,8 +9,8 @@ services:
       - ./src:/app/src:ro
     environment:
       - ENV_=devlopment
-   # depends_on:
-   #   - mongo
+    depends_on:
+      - mongo
 
   mongo:
     image: mongo
