@@ -1,6 +1,7 @@
 const express =require('express');
 const mongoose = require('mongoose');
 const redis = require('redis');
+const os =require('os');
 
 
 
@@ -35,7 +36,9 @@ console.log('connect to DB.. .')
 
 app.get('/',(req,res)=> {
 
-    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS using docker-hub  </h1>')
+    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS using docker-hub  </h1>');
+
+    console.log(`traffic from ${os.hostname}`);
 
 });
 

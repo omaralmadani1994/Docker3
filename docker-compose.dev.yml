@@ -1,9 +1,9 @@
 version: '3'
 services:
   service1:
-    container_name: cont21
+   #من اجل scale ... container_name: cont21
     build:
-      context: .
+      #context: .
       target: devlopment
     volumes:
       - ./src:/app/src:ro
