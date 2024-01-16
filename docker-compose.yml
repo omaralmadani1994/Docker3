@@ -1,6 +1,7 @@
 version: '3'
 services:
   service1:
+    image: omarmadani1994/roaa-reop
     ports:
       - 4000:4000
   

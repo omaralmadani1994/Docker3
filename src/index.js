@@ -35,7 +35,7 @@ console.log('connect to DB.. .')
 
 app.get('/',(req,res)=> {
 
-    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS </h1>')
+    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS using docker-hub </h1>')
 
 });
 
