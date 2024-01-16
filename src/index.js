@@ -36,7 +36,7 @@ console.log('connect to DB.. .')
 
 app.get('/',(req,res)=> {
 
-    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS using docker-hub  with wathtower <hr> Ab Baker , Medo  , The punisher , Shadooo</h1>');
+    res.send('<h1> Hello Ahmad !! <hr> Hello Roaa!!!! <hr> Welcome To OMAR   AWS using docker-hub  with wathtower <hr> </h1>');
 
     console.log(`traffic from ${os.hostname}`);
 
